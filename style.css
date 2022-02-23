@@ -1,154 +1,89 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.title{
+font-family: monospace;
+position: relative;
+margin-right: 750px;
+font-style: normal;
+color: orange;
+transition: 2s;
 }
-
-body{
-  font-family: 'Raleway', sans-serif;
-}
-.navbar{
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-nav{
-  flex: 1;
-  text-align: right;
-}
-
-nav ul{
-  display: inline-block;
-  list-style-type: none;
-}
-
-nav ul li{
-  display: inline-block;
-  margin-right: 20px;
-}
-
-a{
-  text-decoration: none;
-  color: #555
-}
-
-p{
-  color: #555;
-}
-
-.container{
-  max-width: 1300px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
+#first-para{
+  padding: 60px;
 
 }
-
-.row{
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.col-2{
-  flex-basis: 50%;
-  min-width: 300px;
-}
-
-.col-2 img{
-  max-width: 100%;
-  padding: 50px 180px;
-}
-
-.col-2 h1{
+h1{
   font-size: 50px;
-  line-height: 60px;
-  margin: 25px 0;
 }
+.logo{
+width: 100px;
+}
+.title:hover{
+  color: #ff523b;
+}
+section{
 
-.btn{
-  display: inline-block;
-  background: #ff523b;
-  color: #fff;
-  padding: 8px 30px;
-  margin: 30px 0;
-  border-radius: 30px;
-  transition: background 0.5s;
+background-color: #121212;
 }
-.btn:hover{
-  background:#555;
+.title p{
+  display: inline;
 }
-.container{
-  background: radial-gradient(#fff,#ffd6d6);
-}
-
-.header .row{
-  margin-top: 70px;
-}
-
-.catergories{
-  margin: 70px 0;
-}
-
-.col-3{
-  flex-basis: 30%;
-  min-width: 250px;
-  margin-bottom: 30px;
-}
-.col-3 img{
-  width: 100%;
-}
-
-.small-container{
-  max-width: 1080px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.col-4{
-  flex-basis: 25%;
-  padding: 10px;
-  min-width: 200px;
-  margin-bottom: 50px;
-  transition: transform 0.5s;
-}
-
-.col-4 img{
-  width: 100%;
-}
-
-.Title{
-  text-align: center;
-  margin: 0 auto 80px;
+.main-image{
+  width: 400px;
   position: relative;
-  line-height: 60px;
-  color: #555
+  right: -250px;
+  top: -400px;
+  transition: 0.9s;
 }
 
-.Title::after{
-  content:'';
-  background: #ff523b;
-  width: 80px;
-  height: 5px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+.main-image:hover{
+  transform: translateY(-20px);
 }
 
-h4{
-  color: #555;
-  font-weight: normal;
+.display-box{
+  display: inline-block;
+  width: 200px
+}
+.display-betta{
+  width: 200px;
+  padding: 30px;
+  margin: 50px;
 }
 
-.col-4 p{
-  font-size: 14px;
+.smol{
+  width: 50px;
 }
 
-.col-4:hover{
-  transform: translateY(-5px);
+.MyCar {
+  width: 1000px;
+  height: 300px;
+  background-color: #121212;
+}
+
+.carousel-item{
+   width: 500px;
+}
+center{
+  background-color: #121212;
+}
+.nav-link:hover{
+  color: #ff523b;
+}
+#card1{
+  right: 400px;
+}
+
+#card2{
+  top: -210px;
+}
+#card3{
+  left: 400px;
+  top: -425px;
+}
+section{
+  background-color: #121212;
+}
+.card{
+  transition: 0.3s;
+}
+.card:hover{
+  transform: translateY(20px);
 }
