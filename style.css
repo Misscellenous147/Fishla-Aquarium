@@ -5,6 +5,7 @@ margin-right: 750px;
 font-style: normal;
 color: orange;
 transition: 2s;
+margin-top: 40px;
 }
 #first-para{
   padding: 60px;
@@ -30,12 +31,17 @@ background-color: #121212;
   width: 400px;
   position: relative;
   right: -250px;
-  top: -400px;
+  top: -420px;
   transition: 0.9s;
 }
 
+#Home{
+  height: 800px;
+}
 .main-image:hover{
   transform: translateY(-20px);
+  border-radius: 250px;
+  background-color: #fff;
 }
 
 .display-box{
@@ -86,4 +92,6 @@ section{
 }
 .card:hover{
   transform: translateY(20px);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
